@@ -1,5 +1,5 @@
 import java.util.Scanner ;
-public class Cylinder{
+public class AreaCylinder{
 	public static void main(String[] args )  {
 		Scanner sc =  new Scanner(System.in)  ;
 		System.out.println("Enter The Radius ");

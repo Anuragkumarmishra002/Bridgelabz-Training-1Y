@@ -7,7 +7,7 @@ System.out.println("Enter the lenght " ) ;
 double lenght =  sc.nextDouble();
 System.out.println("Enter the width " ) ;
 double width =  sc.nextDouble();
-double perimeter =  2 * ( lenght * width ) ;
+double perimeter =  2 * ( lenght + width ) ;
 System.out.printf("The Perimeter Of Rectangle Is %.2f%n", perimeter);
 }
 }

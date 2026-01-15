@@ -11,3 +11,4 @@ double areaIn = areaCm/6.4516;
 System.out.println("The Area of the triangle in sq in is "+areaIn+" and sq cm is "+areaCm);
 }
 }
+

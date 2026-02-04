@@ -5,7 +5,7 @@ public class  FactorsFinder {
         System.out.print("Enter a positive integer = ");
         int num = sc.nextInt();
         if (num <= 0) {
-            System.out.println("Error: Only positive integers are allowed");
+            System.out.println("Error Only positive integers are allowed");
             sc.close();
             return;
         }

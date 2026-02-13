@@ -1,4 +1,4 @@
-package com.gla.string.level3;
+package com.gla.strings;
 
 import java.util.Scanner;
 

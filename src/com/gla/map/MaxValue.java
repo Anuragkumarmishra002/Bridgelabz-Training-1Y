@@ -1,0 +1,30 @@
+package com.gla.map;
+import java.util.*;
+
+class MaxValueKeyInput {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Map<String, Integer> map = new HashMap<>();
+        System.out.print("Enter number of entries ");
+        int n = sc.nextInt();
+        sc.nextLine();
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter key ");
+            String key = sc.nextLine();
+            System.out.print("Enter value ");
+            int value = sc.nextInt();
+            sc.nextLine();
+            map.put(key, value);
+        }
+        String maxKey = null;
+        int max = Integer.MIN_VALUE;
+
+        for (Map.Entry<String, Integer> e : map.entrySet()) {
+            if (e.getValue() > max) {
+                max = e.getValue();
+                maxKey = e.getKey();
+            }
+        }
+        System.out.println("Key with max value " + maxKey);
+    }
+}
